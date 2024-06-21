@@ -2,7 +2,7 @@ import useAppContext from "../hooks/useAppContext";
 
 const Card = () => {
   const { dishesFound } = useAppContext();
-  console.log(dishesFound);
+  
   return (
     <div>
       {dishesFound.length >= 1 ? (
