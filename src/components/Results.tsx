@@ -4,7 +4,7 @@ const Results = () => {
 
 
   return (
-    <div>
+    <div className=" lg:flex-row">
       <Card />
     </div>
   );
