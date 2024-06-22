@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <div>
       {dishesFound.length >= 1 ? (
-        <div className="flex flex-col items-center lg:flex-row flex-wrap lg:justify-center lg:items-start">
+        <div className="flex flex-col items-center lg:flex-row flex-wrap lg:justify-center  lg:items-stretch">
 
           {dishesFound.map((dishes, index) => (
             <div
